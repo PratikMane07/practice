@@ -14,7 +14,6 @@ public class HomeController {
 	         int result = num1 + num2;	
 	         return result;
 	}
-<<<<<<< HEAD
 	@GetMapping("/mul/{num1}/{num2}")
 	public int multiplicationByOmkar(@PathVariable int num1, @PathVariable int num2)
 	{
@@ -24,22 +23,4 @@ public class HomeController {
         return result;
 	}
 		
-=======
-	
-	@GetMapping("/sub/{num1}/{num2}")
-	public int subtractionByIshwar(@PathVariable int num1, @PathVariable int num2)
-	
-	{
-		
-		int result = num1-num2;
-		
-		
-		
-		return result;
-		
-	}
-	
-	
-	
->>>>>>> branch 'main' of https://github.com/PratikMane07/practice
 }
