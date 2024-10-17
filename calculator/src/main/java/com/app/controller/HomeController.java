@@ -14,20 +14,13 @@ public class HomeController {
 	         int result = num1 + num2;	
 	         return result;
 	}
-	
-	@GetMapping("/sub/{num1}/{num2}")
-	public int subtractionByIshwar(@PathVariable int num1, @PathVariable int num2)
-	
+	@GetMapping("/mul/{num1}/{num2}")
+	public int multiplicationByOmkar(@PathVariable int num1, @PathVariable int num2)
 	{
-		
-		int result = num1-num2;
-		
-		
-		
-		return result;
-		
+
+        int result = num1 * num2;	
+        
+        return result;
 	}
-	
-	
-	
+		
 }
