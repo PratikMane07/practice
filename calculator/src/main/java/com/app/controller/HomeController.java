@@ -15,6 +15,19 @@ public class HomeController {
 	         return result;
 	}
 	
+	@GetMapping("/sub/{num1}/{num2}")
+	public int subtractionByIshwar(@PathVariable int num1, @PathVariable int num2)
+	
+	{
+		
+		int result = num1-num2;
+		
+		
+		
+		return result;
+		
+	}
+	
 	
 	
 }
